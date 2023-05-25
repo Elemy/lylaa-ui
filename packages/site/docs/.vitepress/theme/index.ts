@@ -2,7 +2,7 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { AntdTheme } from "vite-plugin-vitepress-demo/theme";
 import Antd from "ant-design-vue";
-import "test-ui/dist/style.css";
+import "lylaa-ui/dist/style.css";
 import "ant-design-vue/dist/antd.css";
 import "./index.css";
 

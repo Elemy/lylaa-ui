@@ -1,13 +1,13 @@
 {
-  "name": "test-ui",
+  "name": "lylaa-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter test-ui build",
+    "build": "pnpm --filter lylaa-ui build",
     "dev": "pnpm run --filter site dev",
     "docs:build": "pnpm run --filter site build",
-    "pub": "pnpm build && pnpm publish --filter test-ui"
+    "pub": "pnpm build && pnpm publish --filter lylaa-ui"
   },
   "keywords": [],
   "author": "",

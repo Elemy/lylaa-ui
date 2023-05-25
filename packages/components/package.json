@@ -1,8 +1,8 @@
 {
-  "name": "test-ui",
+  "name": "lylaa-ui",
   "version": "1.0.0-rc.1",
   "description": "",
-  "main": "./dist/index.ts",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "vite build"
   },

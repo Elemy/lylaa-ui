@@ -10,7 +10,7 @@
     "serve": "vitepress serve docs"
   },
   "dependencies": {
-    "test-ui": "workspace:*",
+    "lylaa-ui": "workspace:*",
     "vue": "^3.2.47"
   },
   "devDependencies": {
