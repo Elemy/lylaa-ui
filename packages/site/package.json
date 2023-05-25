@@ -1,0 +1,21 @@
+{
+  "name": "site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vitepress dev docs --host",
+    "dev": "npm run start",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "test-ui": "workspace:*",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "vite-plugin-vitepress-demo": "2.0.0-alpha.8",
+    "vitepress": "1.0.0-alpha.75",
+    "vue-tsc": "^1.4.2"
+  }
+}
