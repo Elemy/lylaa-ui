@@ -10,5 +10,5 @@
     "moduleResolution": "node",
     "lib": ["esnext", "dom"]
   },
-  "include": ["packages/components/src", "packages/site/src"],
+  "include": ["packages/components/src", "packages/site/src"]
 }

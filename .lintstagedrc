@@ -1,0 +1,6 @@
+{
+    "*.{js,ts,vue}": [
+        "prettier --write",
+        "eslint --max-warnings 5 --ext .js,.vue,.ts packages"
+    ]
+}
