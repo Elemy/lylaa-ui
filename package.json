@@ -1,5 +1,5 @@
 {
-  "name": "lylaa-ui",
+  "name": "root",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,9 @@
     "docs:build": "pnpm run --filter site build",
     "pub": "pnpm build && pnpm publish --filter lylaa-ui",
     "lint": "eslint --ext .js,.vue,.ts --fix --quiet ./",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "pnpm run --filter lylaa-ui test",
+    "coverage": "pnpm run --filter lylaa-ui coverage"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +35,6 @@
     "typescript": "^5.0.4",
     "vite": "^4.3.3",
     "vite-plugin-dts": "^2.3.0",
-    "vue": "^3.2.36"
+    "vue": "3.3.4"
   }
 }

@@ -10,12 +10,11 @@
     "serve": "vitepress serve docs"
   },
   "dependencies": {
-    "lylaa-ui": "workspace:*",
-    "vue": "^3.2.47"
+    "lylaa-ui": "workspace:*"
   },
   "devDependencies": {
     "vite-plugin-vitepress-demo": "2.0.0-alpha.8",
-    "vitepress": "1.0.0-alpha.75",
+    "vitepress": "1.0.0-alpha.63",
     "vue-tsc": "^1.4.2"
   }
 }

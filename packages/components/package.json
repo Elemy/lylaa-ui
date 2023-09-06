@@ -1,12 +1,24 @@
 {
   "name": "lylaa-ui",
   "version": "1.0.0-rc.1",
+  "type": "module",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vitest/coverage-v8": "^0.34.2",
+    "@vue/test-utils": "^2.4.1",
+    "happy-dom": "^10.10.4",
+    "vitest": "^0.34.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.0.2"
+  }
 }
