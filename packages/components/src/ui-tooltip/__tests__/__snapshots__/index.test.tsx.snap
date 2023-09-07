@@ -1,8 +1,3 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > 鼠标移入 1`] = `
-"<div id=\\"hello\\" class=\\"hello-class\\">hello Lylaa ui</div>
-<!-- <Tooltip :visible=\\"true\\" :prefix-cls=\\"usePrefixCls('tooltip')\\"
-    ><slot></slot
-  ></Tooltip> -->"
-`;
+exports[`Button > 鼠标移入 1`] = `"<div id=\\"hello\\" class=\\"hello-class\\">hello Lylaa ui</div>"`;

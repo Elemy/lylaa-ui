@@ -7,16 +7,18 @@
   "scripts": {
     "build": "vite build",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "report": "vitest --ui"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@vitest/coverage-v8": "^0.34.2",
+    "@vitest/ui": "^0.34.3",
     "@vue/test-utils": "^2.4.1",
     "happy-dom": "^10.10.4",
-    "vitest": "^0.34.2"
+    "vitest": "^0.34.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue-jsx": "^3.0.2"

@@ -11,9 +11,6 @@ import { usePrefixCls } from "../composables/useUtils";
   >
     <slot></slot>
   </component>
-  <!-- <Tooltip :visible="true" :prefix-cls="usePrefixCls('tooltip')"
-    ><slot></slot
-  ></Tooltip> -->
 </template>
 
 <style lang="less"></style>
